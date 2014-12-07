@@ -15,6 +15,10 @@ example:
         setRoute: EventRouter()
       }
     });
-    state.events.setRoute(EventRouter.Update.bind(null, state));
+    state.events.setRoute(EventRouter.update.bind(null, state));
 
     hg.app(document.body, state, render);  
+
+install:
+
+    npm install hg-hash-router
