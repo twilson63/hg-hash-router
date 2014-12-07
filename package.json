@@ -1,0 +1,15 @@
+{
+  "name": "hg-event-router",
+  "version": "1.0.0",
+  "description": "Mercury Hash Event Router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom",
+  "license": "MIT",
+  "dependencies": {
+    "geval": "^2.1.1",
+    "hash-router": "^0.4.0"
+  }
+}
